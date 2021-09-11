@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/cotton/64/000000/books-1.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet " href="main.css ">
+    <title>Booky</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="banner">
+            <div class="container">
+                <div class="slider">
+
+                    <div class="box1 box">
+                        <div class="bg"></div>
+                        <div class="details">
+                            <h1>Little women</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia dui lectus.
+                                Donec scelerisque ipsum diam, ac mattis orci pellentesque eget.
+                            </p>
+                            <button>Check Now</button>
+                        </div>
+
+                        <div class="illustration">
+                            <img src="books/little women.jpg" alt="little women">
+                        </div>
+                    </div>
+
+
+                    <div class="box2 box">
+                        <div class="bg"></div>
+                        <div class="details">
+                            <h1>Blindness</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia dui lectus.
+                                Donec scelerisque ipsum diam, ac mattis orci pellentesque eget.
+                            </p>
+                            <button>Check Now</button>
+                        </div>
+
+                        <div class="illustration">
+                            <img src="books/Blindness.jpg" alt="blindness">
+                        </div>
+                    </div>
+
+                    <div class="box3 box">
+                        <div class="bg"></div>
+                        <div class="details">
+                            <h1>Jane Eyre</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia dui lectus.
+                                Donec scelerisque ipsum diam, ac mattis orci pellentesque eget.
+                            </p>
+                            <button>Check Now</button>
+                        </div>
+
+                        <div class="illustration">
+                            <img src="books/Jane Eyre.jpg" alt="Jane Eyre">
+                        </div>
+                    </div>
+
+                    <div class="box4 box">
+                        <div class="bg"></div>
+                        <div class="details">
+                            <h1>1984</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia dui lectus.
+                                Donec scelerisque ipsum diam, ac mattis orci pellentesque eget.
+                            </p>
+                            <button>Check Now</button>
+                        </div>
+
+                        <div class="illustration">
+                            <img src="books/1984.jpg" alt="1984">
+                        </div>
+                    </div>
+
+                    <div class="box5 box">
+                        <div class="bg"></div>
+                        <div class="details">
+                            <h1>The Gambler</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia dui lectus.
+                                Donec scelerisque ipsum diam, ac mattis orci pellentesque eget.
+                            </p>
+                            <button>Check Now</button>
+                        </div>
+
+                        <div class="illustration">
+                            <img src="books/The Gambler.jpg" alt="Gambler">
+                        </div>
+                    </div>
+
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91">
+                    <path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)"
+                        fill="#fff" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91">
+                    <path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)"
+                        fill="#fff" />
+                </svg>
+                <div class="trail">
+                    <div class="box1 active">1</div>
+                    <div class="box2">2</div>
+                    <div class="box3">3</div>
+                    <div class="box4">4</div>
+                    <div class="box5">5</div>
+                </div>
+            </div>
+            <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+            <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+
+            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> -->
+            <script src="slider.js"></script>
+        </div>
+        <div>
+            <nav>
+                <div class="nav__container ">
+                    <a href="# " class="nav__item active ">
+                        <div class="nav__item-icon ">
+                            <ion-icon name="home-outline "><svg xmlns="http://www.w3.org/2000/svg " width="16 "
+                                    height="16 " fill="currentColor " class="bi bi-house " viewBox="0 0 16 16 ">
+                                    <path fill-rule="evenodd "
+                                        d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z " />
+                                    <path fill-rule="evenodd "
+                                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z " />
+                                </svg></ion-icon>
+                        </div>
+                        <div class="nav__item-name ">Home</div>
+                    </a>
+                    <a href="# " class="nav__item ">
+                        <div class="nav__item-icon ">
+                            <ion-icon name="people-outline "><svg xmlns="http://www.w3.org/2000/svg " width="16 "
+                                    height="16 " fill="currentColor " class="bi bi-person " viewBox="0 0 16 16 ">
+                                    <path
+                                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.831.418-.832 1.664h10z " />
+                                </svg></ion-icon>
+                        </div>
+                        <div class="nav__item-name ">Profile</div>
+
+                    </a>
+                    <a href="# " class="nav__item ">
+                        <div class="nav__item-icon ">
+                            <ion-icon name="log-out-outline "><svg xmlns="http://www.w3.org/2000/svg " width="16 "
+                                    height="16 " fill="currentColor " class="bi bi-cart " viewBox="0 0 16 16 ">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 10 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z " />
+
+                                </svg></ion-icon>
+                        </div>
+                        <div class="nav__item-name ">Card</div>
+                    </a>
+                    <a href="# " class="nav__item ">
+                        <div class="nav__item-icon ">
+                            <ion-icon name="log-out-outline "><svg xmlns="http://www.w3.org/2000/svg " width="16 "
+                                    height="16 " fill="currentColor " class="bi bi-box-arrow-right "
+                                    viewBox="0 0 16 16 ">
+                                    <path fill-rule="evenodd "
+                                        d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.50 0 0-1 0v2z " />
+                                    <path fill-rule="evenodd "
+                                        d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z " />
+                                </svg></ion-icon>
+                        </div>
+                        <div class="nav__item-name ">Sign out</div>
+                    </a>
+                </div>
+
+            </nav>
+            <script src="navbar.js"></script>
+        </div>
+
+        <div class="Card">
+            <div class="shop" id="card_cantainer">
+
+            </div>
+        </div>
+
+    </div>
+    <script src="data.js"></script>
+    <link rel="stylesheet" href="slider.css">
+</body>
+
+</html>
